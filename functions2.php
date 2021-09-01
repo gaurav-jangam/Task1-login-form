@@ -28,7 +28,7 @@
     function paint($room = "Hall",$color = "orange" ){
         echo "The color of the {$room} is {$color}";
     }
-    paint("$room","blue");
+    paint();
     ?>
 </body>        
 </html>
