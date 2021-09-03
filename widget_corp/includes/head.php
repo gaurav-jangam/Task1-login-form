@@ -13,6 +13,7 @@
       <!-- Required Fremwork -->
       <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.min.css">
       <!-- themify-icons line icon -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
       <!-- ico font -->
       <link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">

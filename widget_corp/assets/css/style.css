@@ -27,22 +27,16 @@ File: style.css
       Custom css start
 ==========================  **/
 body {
-  height: 100%;
   background-color: #f3f3f3;
   font-size: 0.875em;
   overflow-x: hidden;
   color: #353c4e;
   font-family: "Open Sans", sans-serif; }
 
-
 ul {
   padding-left: 0;
   list-style-type: none;
   margin-bottom: 0; }
-  .selected {
-    height: 50px;
-    font-weight: 1000;
-  }
 
 *:focus {
   outline: none; }
@@ -8975,7 +8969,7 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
 
 .widget-card-1 {
   margin-top: 40px;
-  text-align: left !important; }
+  text-align: right; }
   .widget-card-1 .card1-icon {
     width: 60px;
     height: 60px;
