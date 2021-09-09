@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #1e272e;
+    animation: bkground 2s infinite;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    font-family: arial;
+    /*if you don't like the flip screen solution you can simply change the font size to 2em instead of 6em*/
+    font-size:2em;
+    letter-spacing: 20px;
+    color: black;
+    text-shadow: none;
+    animation:animate 2s infinite;
+    transition: ease-out;
+}
+ul{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:0;
+    padding:0;
+    transform:translate(-50%,-50%);
+    display:flex;
+}
+@keyframes bkground {
+    0%{background-color:#1e272e;}
+    /*25%{background-color:#485460;}
+    75%{background-color:#808e9b;}
+    100%{background-color:#d2dae2;}*/
+}
+@keyframes animate{
+    0%{text-shadow:none;color:#778ca3;}
+    10%{text-shadow:0 0 7px #FFF900, 0 0 20px #FFF900;color:#FFF900;}
+    20%{text-shadow:none;color:#778ca3;}
+    30%{text-shadow:0 0 7px #7158e2, 0 0 20px #7158e2;color:#7158e2;}
+    40%{text-shadow:none;color:#778ca3;}
+    50%{text-shadow:0 0 7px #ED4C67, 0 0 20px #ED4C67;color:#ED4C67;}
+    60%{text-shadow:none;color:#778ca3;}
+    70%{text-shadow:0 0 7px #006266, 0 0 20px #006266;color:#006266;}
+    80%{text-shadow:none;color:#778ca3;}
+    90%{text-shadow:0 0 7px #fa8231, 0 0 20px #fa8231;color:#fa8231;}
+    100%{text-shadow:none;color:#778ca3;}
+}
+ul li:nth-child(1){animation-delay:0.3s;}
+ul li:nth-child(2){animation-delay:0.6s;}
+ul li:nth-child(3){animation-delay:0.9s;}
+ul li:nth-child(4){animation-delay:1.2s;}
+ul li:nth-child(5){animation-delay:1.5s;}
+ul li:nth-child(6){animation-delay:1.8s;}
+ul li:nth-child(7){animation-delay:2.1s;}
